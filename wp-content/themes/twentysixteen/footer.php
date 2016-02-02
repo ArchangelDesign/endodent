@@ -38,7 +38,7 @@
 				</nav><!-- .social-navigation -->
 			<?php endif; ?>
 
-			<div class="site-info">
+			<div class="site-info ad-site-footer">
 				<?php
 					/**
 					 * Fires before the twentysixteen footer text for footer customization.
@@ -47,8 +47,11 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?></a>
+				<p class="ad-footer-text">Copyright (c) 2016 by <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<br>Wszystkie prawa zastrzeżone<br>
+                    Designed by <a href="http://archangel-design.com">Archangel Design</a>
+                </p>
+                <img class="ad-footer-logo" src="<?php echo home_url('/')?>public/img/logo.jpg">
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->

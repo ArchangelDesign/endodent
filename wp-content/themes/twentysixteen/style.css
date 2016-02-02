@@ -771,7 +771,7 @@ a:active {
 	-webkit-flex: 0 1 100%;
 	-ms-flex: 0 1 100%;
 	flex: 0 1 100%;
-	margin: 0.875em 0;
+	margin: 0px;
 }
 
 .site-header-menu.toggled-on,
@@ -2695,7 +2695,7 @@ p > video {
 		background: inherit;
 		content: "";
 		display: block;
-		height: 21px;
+		height: 0px;
 		left: 0;
 		position: fixed;
 		width: 100%;
@@ -2715,7 +2715,7 @@ p > video {
 	}
 
 	.site {
-		margin: 21px;
+		margin: 0px;
 	}
 
 	.site-main {
@@ -3346,7 +3346,7 @@ p > video {
 	}
 
 	.site-header {
-		padding: 5.25em 4.5455%;
+		padding: 0.25em 4.5455%;
 	}
 
 	.site-branding,
@@ -3917,3 +3917,50 @@ p > video {
 		padding: 0;
 	}
 }
+
+/* Custom styles */
+/* Archangel Design (c) www.archangel-design.com */
+.ad-left-column {
+    border: 1px solid black;
+}
+
+.ad-site-footer {
+    position:relative;
+    display:block;
+    width:100%;
+    height: 150px;
+    background-color: rgba(10, 10, 10, 0.7);
+    padding:20px;
+    padding-left: 80px;
+}
+
+.ad-footer-logo {
+    position: absolute;
+    width: 160px;
+    right:80px;
+    top:40px;
+}
+
+.ad-footer-text {
+    margin-top: 20px;
+    color:#888888;
+}
+
+.ad-header-logo {
+    height:90px;
+
+}
+
+@media screen and (min-width: 44.375em) {
+    .entry-content {
+        margin-right: 7.6923%;
+    }
+}
+
+@media screen and (min-width: 56.875em) {
+    .no-sidebar .entry-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
