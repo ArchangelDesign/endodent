@@ -4022,13 +4022,29 @@ p > video {
     width:40%;
     right:9%;
     height:200px;
-    top:20px;
+    top:30px;
 }
 
-.ad-home-contact-form input {
+.ad-home-contact-form input[type=text], input[type=email] {
     float: left;
     width: calc( 50% - 20px );
     margin-left: 10px;
+    background-color: #1a1a1a;
+    color: #cacaca;
+    border: none;
+    font-family: Arial;
+}
+
+.ad-home-contact-form input[type=submit] {
+    width:200px;
+    margin-left: calc( 100% - 220px );
+    margin-top: 10px;
+    background-color: #33b3db;
+}
+
+.ad-home-contact-form input[type=text], input[type=email]:focus {
+    background-color: #1a1a1a;
+    color: #cacaca;
 }
 
 .ad-home-contact-form textarea {
@@ -4036,6 +4052,9 @@ p > video {
     width: calc( 100% - 30px );
     margin-left: 10px;
     margin-top: 10px;
+    background-color: #1a1a1a;
+    color: #cacaca;
+    border: none;
 }
 
 .entry-content {
