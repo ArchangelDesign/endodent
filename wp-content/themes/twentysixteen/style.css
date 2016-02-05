@@ -4033,6 +4033,7 @@ p > video {
     color: #cacaca;
     border: none;
     font-family: Arial;
+    font-weight: bold;
 }
 
 .ad-home-contact-form input[type=submit] {
