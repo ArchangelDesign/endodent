@@ -4062,3 +4062,24 @@ p > video {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/***** O NAS *****/
+
+.ad-onas-wrapper {
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.ad-onas-left-column {
+    width:30%;
+    border: 1px solid black;
+    float:left;
+    padding:10px;
+}
+
+.ad-onas-right-column {
+    width:70%;
+    border:1px solid black;
+    float:left;
+    padding:10px;
+}
