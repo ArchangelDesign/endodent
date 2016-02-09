@@ -4072,14 +4072,37 @@ p > video {
 
 .ad-onas-left-column {
     width:30%;
-    border: 1px solid black;
     float:left;
     padding:10px;
 }
 
+.ad-onas-left-column p {
+    line-height: 1.3em;
+    font-family: arial;
+}
+
 .ad-onas-right-column {
     width:70%;
-    border:1px solid black;
     float:left;
     padding:10px;
+}
+
+.ad-onas-right-column h3, .ad-onas-left-column h3 {
+    font-family: arial;
+    font-size: 35px;
+    padding-top: 0px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+
+.ad-onas-subheader {
+    font-style: italic;
+    color: #686868;
+}
+
+.ad-onas-right-column p {
+    font-size: 1em;
+    font-family: arial;
+    line-height: 1.3em;
 }
