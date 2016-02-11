@@ -4087,7 +4087,8 @@ p > video {
     padding:10px;
 }
 
-.ad-onas-right-column h3, .ad-onas-left-column h3 {
+.ad-onas-right-column h3,
+.ad-onas-left-column h3 {
     font-family: arial;
     font-size: 35px;
     padding-top: 0px;
@@ -4105,4 +4106,55 @@ p > video {
     font-size: 1em;
     font-family: arial;
     line-height: 1.3em;
+}
+
+.techniki-wrapper {
+    width:100%;
+    background-color: white;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.techniki-technika {
+    width: 200px;
+    display: block;
+    float: left;
+    border:1px solid black;
+}
+
+.techniki-technika .circle {
+    width: 10em;
+    height: 10em;
+    background-color: #0A246A;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.techniki-technika h3 {
+    color: #1a1a1a;
+    font-size: 20px;
+    font-family: Arial;
+    width:94%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.techniki-technika p {
+    font-family: Arial;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.techniki-technika hr {
+    margin-top : 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
