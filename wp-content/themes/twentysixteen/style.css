@@ -4109,10 +4109,10 @@ p > video {
 }
 
 .techniki-wrapper {
-    width:100%;
+    width:80%;
     background-color: white;
-    margin-left: 5%;
-    margin-right:5%;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 .techniki-technika {
@@ -4120,6 +4120,7 @@ p > video {
     display: block;
     float: left;
     border:1px solid black;
+    margin: 25px;
 }
 
 .techniki-technika .circle {
@@ -4130,7 +4131,7 @@ p > video {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .techniki-technika h3 {
@@ -4157,4 +4158,23 @@ p > video {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    height:3px;
+}
+
+.techniki-wrapper > h1 {
+    font-family: arial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    font-size: 2em;
+}
+
+.techniki-wrapper .inner-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    max-width: 750px;
 }
