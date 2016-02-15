@@ -4178,3 +4178,91 @@ p > video {
     overflow: auto;
     max-width: 750px;
 }
+
+.doctors-wrapper {
+    width:100%;
+    background-color: #00b9eb;
+}
+
+
+/** Doctors slider **/
+
+.touchslider-viewport {
+	overflow: hidden;
+	width: 780px;
+}
+
+.touchslider {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.touchslider-prev, .touchslider-next {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(150, 150, 150, 0.4);
+	position: absolute;
+    color: whitesmoke;
+    padding-left: 24px;
+    padding-top: 7px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.touchslider-prev {
+	left: 0px;
+	top: 150px;
+}
+
+.touchslider-next {
+    right: 0px;
+    top: 150px;
+}
+
+.doctor-element {
+    width:250px;
+    height: 500px;
+    background-color: #9FD0D5;
+    overflow: hidden;
+    float:left;
+    margin-left: 10px;
+}
+
+.doctor-element img {
+    width: 100%;
+
+}
+
+.doctor-element .doctor-description {
+    position: absolute;
+    top: 350px;
+    height: 150px;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.doctor-element .doctor-description p {
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    width:230px;
+}
+
+.doctor-element .doctor-description h4 {
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.slide-wrapper {
+    width:780px;
+    overflow: auto;
+}
+
+/** EO Doctors slider **/

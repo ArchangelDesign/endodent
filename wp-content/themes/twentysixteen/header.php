@@ -19,13 +19,15 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+    <script src="<?php echo includes_url('js/jquery/jquery-migrate.js'); ?>"></script>
+    <script src="<?php echo includes_url('js/jquery/jquery.js'); ?>"></script>
+	<script src="<?php echo includes_url('js/jquery.touchslider.min.js'); ?>"></script>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
-
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
 				<div class="site-branding">
