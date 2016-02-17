@@ -4119,19 +4119,28 @@ p > video {
     width: 200px;
     display: block;
     float: left;
-    border:1px solid black;
     margin: 25px;
 }
 
 .techniki-technika .circle {
-    width: 10em;
-    height: 10em;
+    width: 160px;
+    height: 160px;
     background-color: #0A246A;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+}
+
+.techniki-technika .circle img {
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .techniki-technika h3 {
@@ -4200,11 +4209,11 @@ p > video {
 }
 
 .touchslider-prev, .touchslider-next {
-	display: block;
-	width: 70px;
-	height: 70px;
-	background-color: rgba(150, 150, 150, 0.4);
-	position: absolute;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(150, 150, 150, 0.4);
+    position: absolute;
     color: whitesmoke;
     padding-left: 24px;
     padding-top: 7px;
