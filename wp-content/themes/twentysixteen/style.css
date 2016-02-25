@@ -3929,7 +3929,7 @@ p > video {
     display:block;
     width:100%;
     height: 150px;
-    background-color: rgba(10, 10, 10, 0.7);
+    background-color: #303030;
     padding:20px;
     padding-left: 80px;
 }
@@ -4040,7 +4040,7 @@ p > video {
     width:200px;
     margin-left: calc( 100% - 220px );
     margin-top: 10px;
-    background-color: #33b3db;
+    background-color: #0492d2;
 }
 
 .ad-home-contact-form input[type=text], input[type=email]:focus {
@@ -4125,12 +4125,13 @@ p > video {
 .techniki-technika .circle {
     width: 160px;
     height: 160px;
-    background-color: #0A246A;
+    background-color: #0492d2;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    padding-top: 15px;
 }
 
 .techniki-technika .circle img {
@@ -4190,7 +4191,7 @@ p > video {
 
 .doctors-wrapper {
     width:100%;
-    background-color: #00b9eb;
+    background-color: #0492d2;
 }
 
 
@@ -4234,7 +4235,7 @@ p > video {
 .doctor-element {
     width:250px;
     height: 500px;
-    background-color: #9FD0D5;
+    background-color: #e0e6e6;
     overflow: hidden;
     float:left;
     margin-left: 10px;
@@ -4283,6 +4284,8 @@ p > video {
     padding: 0px;
     padding-top: 40px !important;
     margin-bottom: 50px;
+    color: #ffffff;
+    font-family: helvetica, arial;
 }
 
 @media screen and (min-width: 920px) {
@@ -4303,3 +4306,154 @@ p > video {
 }
 
 /** EO Doctors slider **/
+
+
+/** Cennik Slider **/
+
+.cennik-wrapper {
+    width: 100%;
+    background-color: #0492d2;
+}
+
+.cennik-wrapper>h1 {
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding-top: 20px;
+    font-family: helvetica, arial;
+    font-weight: 300;
+}
+
+.cennik-wrapper>hr {
+    color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cennik-slide-wrapper {
+    overflow: auto;
+    width:767px;
+    margin-left: 55px;
+}
+
+.cennik-element-side {
+    width: 250px;
+    height: 500px;
+    float: left;
+    padding-top: 20px;
+}
+
+.cennik-element-center {
+    background-color: #f4f4f4;
+}
+
+.cennik-element-side>.top-hr {
+    width:70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+}
+
+.cennik-element-side>h1 {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica, arial;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.cennik-element-center>h1 {
+    color: #434343 !important;
+}
+
+.cennik-element-center>.top-hr {
+    background-color: black !important;
+    height: 2px;
+}
+
+.cennik-element-side>.separator {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0583bd;
+}
+
+.cennik-element-side>h3 {
+    text-align: center;
+    color: white;
+    font-family: helvetica, arial;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.cennik-element-side>h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: helvetica, arial;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 10px;
+    width: 250px;
+}
+
+.cennik-element-center>h2, .cennik-element-center>h3 {
+    color: #434343 !important;
+}
+
+.touchslider-nav-item {
+    display: none;
+}
+
+/** EO Cennik Slider **/
+
+/** Kontakt **/
+
+.kontakt-wrapper {
+    width: 100%;
+
+}
+
+.the-map {
+    width: 100%;
+}
+
+.kontakt-overlay {
+    background-color: rgba(4, 146, 210, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 650px;
+    width: 450px;
+}
+
+.kontakt-overlay .kontakt-wrap {
+    position: absolute;
+    width: 300px;
+    height: 650px;
+    left: 80px;
+}
+
+.kontakt-wrap {
+    color: white;
+    font-family: helvetica, arial;
+    padding-top: 80px;
+}
+
+.kontakt-wrap hr {
+    background-color: white;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.kontakt-wrap h1 {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+/** EO Kontakt **/

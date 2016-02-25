@@ -51,7 +51,7 @@
 				<br>Wszystkie prawa zastrzeżone<br>
                     Designed by <a href="http://archangel-design.com">Archangel Design</a>
                 </p>
-                <img class="ad-footer-logo" src="<?php echo home_url('/')?>public/img/logo.jpg">
+                <img class="ad-footer-logo" src="<?php echo home_url('/')?>public/img/logo-white.png">
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
